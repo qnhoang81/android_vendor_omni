@@ -14,6 +14,7 @@ PRODUCT_PACKAGES += \
     DashClock \
     DSPManager \
     libcyanogen-dsp \
+    mGerrit \
     MonthCalendarWidget \
     OpenDelta \
     OmniSwitch
