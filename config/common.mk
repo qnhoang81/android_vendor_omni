@@ -33,13 +33,14 @@ PRODUCT_COPY_FILES += \
     vendor/omni/prebuilt/bin/backuptool.functions:system/bin/backuptool.functions \
     vendor/omni/prebuilt/bin/50-hosts.sh:system/addon.d/50-hosts.sh \
     vendor/omni/prebuilt/bin/blacklist:system/addon.d/blacklist
+
 # SuperSu
 PRODUCT_COPY_FILES += \
     vendor/omni/prebuilt/app/Superuser.apk:system/app/Superuser.apk \
     vendor/omni/prebuilt/xbin/su:system/bin/su \
     vendor/omni/prebuilt/xbin/su:system/xbin/su \
     vendor/omni/prebuilt/xbin/su:system/xbin/daemonsu \
-    vendor/omni/prebuilt/etc/init.d/99SuperSUDaemon.sh:system/etc/init.d/99SuperSUDaemon.sh
+    vendor/omni/prebuilt/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
 
 # init.d support
 PRODUCT_COPY_FILES += \
